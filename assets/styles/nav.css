@@ -1,0 +1,13 @@
+nav {
+    margin-bottom: 30px;
+}
+
+nav .dropdown-item {
+    cursor: pointer;
+}
+
+nav .login__ico {
+    width: 30px;
+    height: 30px;
+    color: var(--nav-text-color);
+}

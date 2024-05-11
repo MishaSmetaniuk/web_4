@@ -1,0 +1,9 @@
+canvas#myChart {
+    margin-bottom: 100px;
+}
+
+.graph__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

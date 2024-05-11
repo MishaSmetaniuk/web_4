@@ -1,0 +1,122 @@
+:root {
+    --header-color: #333;
+    --text-color: #333;
+    --main-text-color: orange;
+    --header-font-size: 30px;
+    --text-font-size: 16px;
+    --background-color: #080710;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel {
+    background-color: #Fff2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px 20px 200px 20px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.705);
+    opacity: 0.9;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--header-font-size);
+    color: var(--header-color);
+
+    @media (max-width: 768px) {
+        font-size: calc(var(--header-font-size) - 10px);
+    }
+}
+
+.order_container {
+    margin: 0 0 10px 0;
+}
+
+.order_number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price_container {
+    display: flex;
+    justify-content: end;
+    font-size: calc(var(--header-font-size) - 5px);
+
+    @media (max-width: 768px) {
+        font-size: calc(var(--header-font-size) - 15px);
+    }
+}
+
+.logout_container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.back_container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.status_container {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.product_container {
+    display: block;
+    margin: 10px 0;
+}
+
+.main_text {
+    color: var(--main-text-color);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.Completed {
+    color: green;
+}
+
+.Declined {
+    color: red;
+}
+
+.Pending {
+    color: rgb(198, 198, 59);
+}
+
+.fa-check {
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-ban {
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}

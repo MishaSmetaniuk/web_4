@@ -1,0 +1,84 @@
+.modal-basket {
+    margin: 10px auto;
+    font-size: 13px;
+    line-height: 16px;
+    color: #323232;
+    width: 506px;
+    display: none;
+    padding-left: 21px;
+    padding-right: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    background-color: #f8f7f4;
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.35);
+  }
+  
+  .added-item {
+    display: flex;
+    position: relative;
+    align-items: top;
+    min-height: 33px;
+    margin-bottom: 20px;
+  }
+  
+  .added-item:last-of-type {
+    margin-bottom: 31px;
+  }
+  
+  .added-item:last-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: -6px;
+    width: 510px;
+    height: 1px;
+    background-color: #cacac7;
+  }
+  
+  .basket-img {
+    margin-right: 12px;
+    border-radius: 50%;
+    height: 100%;
+  }
+  .added-item-title {
+    padding: 0;
+    margin: 0;
+    padding-top: 9px;
+    width: 216px;
+    margin-right: 32px;
+  }
+  
+  .amount-and-cost {
+    padding: 0;
+    margin: 0;
+    padding-top: 9px;
+    margin-right: 28px;
+  }
+  
+  .added-item-cost {
+    color: #999999;
+  }
+  
+  .item-total-cost {
+    padding: 0;
+    margin: 0;
+    padding-top: 9px;
+  }
+  
+  .total-cost {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    float: right;
+  }
+  
+.buy_btn {
+  display: flex; 
+  justify-content: end; 
+  position: relative;
+}
+  

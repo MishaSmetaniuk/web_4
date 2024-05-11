@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/auth/register.css">
+     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <form id="register__form" method="post">
+        <a href="index.html" class="previous round" id="back_arrow">&#8249;</a>
+        <h3>Register Here</h3>
+    
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" id="username" autocomplete="username">
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password" autocomplete="current-password">
+    
+        <h5>Already have an account? <a href="login.html">Login</a></h5>
+
+        <div class="error_msg" id="error_handler"> </div>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <script src="assets/scripts/auth/register.js"></script>
+</body>
+</html>

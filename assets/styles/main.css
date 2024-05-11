@@ -1,0 +1,11 @@
+.grid-divider {
+    border-right: 0px solid #ccc;
+}
+  
+.grid-divider:last-child {
+    border-right: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
